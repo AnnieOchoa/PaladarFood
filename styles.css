@@ -79,11 +79,10 @@ i.bi-cart {
 /* Footer */
 
 .footer{
-  background-image:url(https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698512633/mis%20imagenes/mis%20imagenes/y4pvkqhbvqln6w8r0epj.jpg);
+  background-image:url(https://res.cloudinary.com/dtlgcfflw/image/upload/v1698701606/vista-superior-arepas-verduras_iqniy1.jpg);
   background-repeat: no-repeat;
+  background-position: center right;
   background-size: cover;
-  object-fit: cover;
-  height: auto;
   padding: 10px 0;
   margin: 10px 0;
 
@@ -125,7 +124,8 @@ i.bi-cart {
 .copyright {
   background-color: #ffc007;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 5px;
 }
 
 .btn {
@@ -135,8 +135,12 @@ i.bi-cart {
   font-size: 20px;
 }
 .btn:hover{
-  background-color: #fff;
+  background-color: rgba(245, 198, 46, 0.998);
   color: black;
+}
+
+.navbar-footer a{
+  color: #fff;
 }
 
 
