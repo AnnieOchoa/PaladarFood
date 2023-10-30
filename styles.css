@@ -88,3 +88,18 @@ i.bi-cart {
     height: 320px;
   }
 }
+/*Products Style*/
+.products { font-family: agbalumo;}
+.card {font-family: 'Roboto', sans-serif; height: 600px; border-radius: 30px;}
+.card button {font-weight: 600;}
+.card-img-top {
+  
+  padding: 20px;
+  object-fit: contain;
+  height: 350px;
+}
+.pizza {height: 400px;}
+.bbq { height: 400px;}
+.card-body {padding: 25px; margin-top: -15px;}
+.products .btn-warning { border-radius: 50px; width: 120px;}
+.products .btn-warning:hover {background-color: rgb(255, 249, 249); border-radius: 5px solid rgb(241, 186, 4); transition: all 0.3s ease;}
