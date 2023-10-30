@@ -75,3 +75,71 @@ i.bi-cart {
     height: 320px;
   }
 }
+
+/* Footer */
+
+.footer{
+  background-image:url(https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698512633/mis%20imagenes/mis%20imagenes/y4pvkqhbvqln6w8r0epj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: auto;
+  padding: 10px 0;
+  margin: 10px 0;
+
+}
+.footer-1 {
+  max-width: 1200px;
+  margin: 100px auto;
+  width: 90%;
+}
+.navbar-footer{
+  display: flex;
+  max-width: 120rem;
+  justify-content: space-evenly;
+  margin: 10px 5px;
+}
+
+.footer-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 4px solid #ffc007;
+  height: 150px;
+  width: 600px;
+}
+.footer-aboutUs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.footer-aboutUs h2{
+  color: #ffc007;
+  font-weight: bold;
+}
+
+.copyright {
+  background-color: #ffc007;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btn {
+  background-color: #ffc007;
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: #fff;
+  color: black;
+}
+
+
+
+
+
