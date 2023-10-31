@@ -84,6 +84,11 @@ i.bi-cart {
     height: 320px;
   }
 }
+
+
+
+
+
 /*Products Style*/
 .products { font-family: agbalumo;}
 .products h2 {
@@ -108,7 +113,107 @@ i.bi-cart {
   height: 350px;
 }
 .pizza {height: 400px;}
-.bbq { height: 400px;}
 .card-body {padding: 25px; margin-top: -15px;}
 .products .btn-warning { border-radius: 50px; width: 120px;}
 .products .btn-warning:hover {background-color: rgb(255, 249, 249); border-radius: 5px solid rgb(241, 186, 4); transition: all 0.3s ease;}
+.bbq { height: 400px;}
+
+/* Footer */
+
+.footer{
+  background-image:url(https://res.cloudinary.com/dtlgcfflw/image/upload/v1698701606/vista-superior-arepas-verduras_iqniy1.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  padding-top: 25px;
+}
+.footer-1 {
+  max-width: 1200px;
+  margin: 100px auto;
+  width: 90%;
+}
+
+.navbar-footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-footer{
+    display: flex;
+    flex-direction: row;
+    max-width: 120rem;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  
+}
+
+.footer-1{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  border: 4px solid #ffc007;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+@media (min-width: 768px) {
+  .footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    border: 4px solid #ffc007;
+    height: 125px;
+    width: 600px;
+    padding: 5px;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .footer-aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.footer-aboutUs h2{
+  color: #ffc007;
+  font-weight: bold;
+}
+
+.copyright {
+  background-color: #ffc007;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+
+.btn {
+  background-color: #ffc007;
+  border: none;
+  color: black;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color: rgba(245, 198, 46, 0.998);
+  color: black;
+}
+
+.navbar-footer a{
+  color: white;
+  font-weight: bold;
+}
