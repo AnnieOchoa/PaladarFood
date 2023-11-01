@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:wght@300;400;500;700&display=swap");
 
-
-
-.glass {
-  background-color:white;
-  width:100%;
-  height: auto;
-  background: -webkit-linear-gradient(to right top, rgba(255,255,255,0.8), rgba(255,255,255,0.6));
-  background: linear-gradient(to right top, rgba(255,255,255,0.8), rgba(255,255,255,0.6));
-}
 .header-image img {
   width: 200px;
 }
@@ -29,8 +20,6 @@ i.bi-cart {
   display: flex;
   justify-content: space-between;
 }
-
-
 
 @media (max-width: 768px) {
   .navbar {
@@ -85,43 +74,58 @@ i.bi-cart {
   }
 }
 
-
-
-
-
 /*Products Style*/
-.products { font-family: agbalumo;}
-.products h2 {
-  font-size: 2.5rem; 
-  font-family: 'Roboto', sans-serif;
+.products {
+  font-family: agbalumo;
 }
-.card {font-family: 'Roboto', sans-serif; height: 600px; border-radius: 30px;
-  box-shadow:
-  0.1px 0.1px 2.2px rgba(0, 0, 0, 0.081),
-  0.3px 0.3px 5.3px rgba(0, 0, 0, 0.113),
-  0.5px 0.5px 10px rgba(0, 0, 0, 0.131),
-  0.9px 0.9px 17.9px rgba(0, 0, 0, 0.145),
-  1.7px 1.7px 33.4px rgba(0, 0, 0, 0.164),
-  4px 4px 80px rgba(0, 0, 0, 0.23)
-;
-  }
-.card button {font-weight: 600;}
+.products h2 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  font-family: "Roboto", sans-serif;
+  height: 600px;
+  border-radius: 30px;
+  transition: 300ms;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card button {
+  font-weight: 600;
+}
 .card-img-top {
-  
   padding: 20px;
   object-fit: contain;
   height: 350px;
 }
-.pizza {height: 400px;}
-.card-body {padding: 25px; margin-top: -15px;}
-.products .btn-warning { border-radius: 50px; width: 120px;}
-.products .btn-warning:hover {background-color: rgb(255, 249, 249); border-radius: 5px solid rgb(241, 186, 4); transition: all 0.3s ease;}
-.bbq { height: 400px;}
+.pizza {
+  height: 400px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.products .btn-warning {
+  border-radius: 50px;
+  width: 120px;
+}
+.products .btn-warning:hover {
+  background-color: rgb(255, 249, 249);
+  border-radius: 5px solid rgb(241, 186, 4);
+  transition: all 0.3s ease;
+}
+.bbq {
+  height: 400px;
+}
 
 /* Footer */
 
-.footer{
-  background-image:url(https://res.cloudinary.com/dtlgcfflw/image/upload/v1698701606/vista-superior-arepas-verduras_iqniy1.jpg);
+.footer {
+  background-image: url(https://res.cloudinary.com/dtlgcfflw/image/upload/v1698701606/vista-superior-arepas-verduras_iqniy1.jpg);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -140,7 +144,7 @@ i.bi-cart {
 }
 
 @media (min-width: 768px) {
-  .navbar-footer{
+  .navbar-footer {
     display: flex;
     flex-direction: row;
     max-width: 120rem;
@@ -149,12 +153,10 @@ i.bi-cart {
   }
 }
 
-
 @media (min-width: 768px) {
-  
 }
 
-.footer-1{
+.footer-1 {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -165,7 +167,7 @@ i.bi-cart {
   margin: 10px auto;
 }
 @media (min-width: 768px) {
-  .footer-1{
+  .footer-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,11 +179,10 @@ i.bi-cart {
     width: 600px;
     padding: 5px;
   }
-  
 }
 
 @media (min-width: 768px) {
-  .footer-aboutUs{
+  .footer-aboutUs {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -189,7 +190,7 @@ i.bi-cart {
   }
 }
 
-.footer-aboutUs h2{
+.footer-aboutUs h2 {
   color: #ffc007;
   font-weight: bold;
 }
@@ -208,12 +209,12 @@ i.bi-cart {
   font-size: 20px;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: rgba(245, 198, 46, 0.998);
   color: black;
 }
 
-.navbar-footer a{
+.navbar-footer a {
   color: white;
   font-weight: bold;
 }
