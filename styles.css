@@ -122,6 +122,19 @@ i.bi-cart {
   height: 400px;
 }
 
+.whatsapp-cta{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 300px;
+}
+
+.whatsapp-cta img {
+  width: 100px;
+}
+
 /* Footer */
 
 .footer {
