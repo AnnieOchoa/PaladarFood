@@ -29,8 +29,8 @@ i.bi-cart {
   display: flex;
   justify-content: space-between;
 }
-
-
+.sm-icons {flex-direction: row;}
+.sm-icons .nav-link {padding-right: 1rem;}
 
 @media (max-width: 768px) {
   .navbar {
