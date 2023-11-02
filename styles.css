@@ -122,6 +122,19 @@ i.bi-cart {
   height: 400px;
 }
 
+.whatsapp-cta{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 300px;
+}
+
+.whatsapp-cta img {
+  width: 100px;
+}
+
 /* Footer */
 
 .footer {
@@ -142,6 +155,23 @@ i.bi-cart {
   flex-direction: column;
   font-size: 20px;
 }
+
+.sm-icons {
+  flex-direction: row;
+  padding: 2rem;
+}
+.sm-icons i {
+  color: gray;
+  background-color: white;
+  padding: 1rem;
+}
+
+.sm-icons i:hover {
+  color: gold;
+  background-color: white;
+}
+.bi-facebook {  border-radius: 1rem 0 0 1rem;}
+.bi-youtube {  border-radius: 0 1rem 1rem 0;}
 
 @media (min-width: 768px) {
   .navbar-footer {
